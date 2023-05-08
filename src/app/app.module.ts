@@ -15,9 +15,7 @@ import { HomeComponentComponent } from './home-component/home-component.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ProductModule,
-    AppModule,
-    FormsModule
+    ProductModule
   ],
   providers: [],
   bootstrap: [AppComponent]

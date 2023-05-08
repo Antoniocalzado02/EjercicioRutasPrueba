@@ -8,7 +8,7 @@ import { ProductFormComponent } from './product/product-form/product-form.compon
 const routes: Routes = [
 {path:'', component: HomeComponentComponent},
 
-{path: '', children:[
+{path: 'products', children:[
   { path: '', component: ProductListComponent },
   { path: ':id', component: ProductDetailComponent }
 ]},
